@@ -10,23 +10,24 @@
 		<![endif]-->
 		<section id="wrapper">
 			{$modals}
+				<a id="slide"></a>
+				<a id="server_logo" href="./" title="{$serverName}"><p>{$serverName}</p></a>
 			<ul id="top_menu">
 				{foreach from=$menu_top item=menu_1}
 					<li><a {$menu_1.link}>{$menu_1.name}</a></li>
 				{/foreach}
 			</ul>
-			<ul>
-				<a id="logo_anch" href="#" title="">Death II<!-- or any title--></a>
-			</ul>
-			<div id="main">			
-                <aside id="left">
+			<div id="main">
+				<aside id="left">
 					<article>
+						<h1 class="top"></h1>
 						<ul id="left_menu">
 							{foreach from=$menu_side item=menu_2}
 								<li><a {$menu_2.link}><img src="{$image_path}bullet.png">{$menu_2.name}</a></li>
 							{/foreach}
 						</ul>
 					</article>
+
 					{foreach from=$sideboxes item=sidebox}
 						<article>
 							<h1 class="top">{$sidebox.name}</h1>
@@ -36,25 +37,44 @@
 						</article>
 					{/foreach}
 				</aside>
+
 				<aside id="right">
 					<section id="slider_bg" {if !$show_slider}style="display:none;"{/if}>
 						<div id="slider">
+							<div id="slider_frame">
 							{foreach from=$slider item=image}
 								<a href="{$image.link}"><img src="{$image.image}" title="{$image.text}"/></a>
 							{/foreach}
+							</div>
 						</div>
-                        <div id="slider_sep"></div>
 					</section>
+
 					{$page}
 				</aside>
+
 				<div class="clear"></div>
-			</div>
-			<footer>
-				<a href="http://ta6363237.deviantart.com/" id="logo" target="_blank" title="Coded by Dawnbrightsu"><p></p><span></span></a>
-             	<a href="http://zafirehd.deviantart.com/" id="zafire" target="_blank" title="Design by ZafireHD"><p></p><span></span></a>
-             	<a href="http://www.fusion-hub.com/" id="dawn" target="_blank" title="Fusion Hub"><p></p><span></span></a>
-				<h3>&copy; Copyright {date("Y")} {$serverName}</h3>
+			</div><footer>
+				<ul3><a href="https://fusion-hub.com/" id="logo" target="_blank"></a>
+				ALL RIGHTS RESERVED &copy; <a href="news">{$serverName}</a>
+				<p2>Coded by <a href="http://ta6363237.deviantart.com/">Dawnbrightsu</a> Designed by <a href="http://zafirehd.deviantart.com/">Zafire</a></p2>
+				</ul3>                
+                <ul2>
+                    <li><a href="forum">FORUMS</a></li>
+                    <li><a href="page/connect">GUIDE</a></li>
+                </ul2>
+                
+                <ul>
+                    <li><a href="register">REGISTER</a></li>
+                    <li><a href="armory">ARMORY</a></li>
+                </ul>
+                
+            	<ul>
+                	<li><a href="news">HOME</a></li>
+                    <li><a href="serverinfo">INFO</a></li>
+                </ul>
+        </div>
 			</footer>
 		</section>
 	</body>
+<link href='http://fonts.googleapis.com/css?family=Federant' rel='stylesheet' type='text/css'>
 </html>

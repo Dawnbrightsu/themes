@@ -1,7 +1,7 @@
 {
-	"name": "WoWMystery Red Version",
-	"author": "Dawnbrightsu & Zafire",
-	"website": "",
+	"name": "LavaCraft",
+	"author": "Dawnbrightsu & ZafireHD",
+	"website": "#",
 	
 	"favicon": "favicon.gif",
 
@@ -9,11 +9,11 @@
 	"small_avatar": "avatars/0_small.jpg",
 
 	"slider_text": {
-		"next": "Next",
-		"previous": "Prev"
+		"next": "",
+		"previous": ""
 	},
 
 	"slider_id": "slider_bg",
-	"screenshot": "images/screenshot.jpg",
+	"screenshot": "images/screenshot.png",
 	"blank_header": ""
 }
