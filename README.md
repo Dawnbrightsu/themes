@@ -5,5 +5,4 @@ Enjoy!
 
 ScreenShot!
 
-http://imgur.com/XskABFN
-[img]http://i.imgur.com/XskABFN.jpg[/img]
+http://i.imgur.com/XskABFN.jpg
