@@ -1,0 +1,1 @@
+<?php if(!$_SESSION['Restricted']){header("location: ../../");}else{} ?>

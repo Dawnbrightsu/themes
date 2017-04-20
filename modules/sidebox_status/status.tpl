@@ -4,7 +4,7 @@
 			{if $realm->isOnline()}
 				{$realm->getOnline()} / {$realm->getCap()}
 			{else}
-				Offline
+				{lang("offline")}
 			{/if}
 		</div>
 		{$realm->getName()}
@@ -27,7 +27,5 @@
 		-->
 
 	</div>
-
-	<div class="side_divider"></div>
 {/foreach}
 <div id="realmlist">set realmlist {$realmlist}</div>

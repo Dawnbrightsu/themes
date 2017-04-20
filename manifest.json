@@ -1,7 +1,7 @@
 {
-	"name": "LavaCraft",
-	"author": "Dawnbrightsu & ZafireHD",
-	"website": "#",
+	"name": "LatonaWoW",
+	"author": "Design and Coded by Dawnbrightsu",
+	"website": "",
 	
 	"favicon": "favicon.gif",
 
@@ -9,11 +9,11 @@
 	"small_avatar": "avatars/0_small.jpg",
 
 	"slider_text": {
-		"next": "",
-		"previous": ""
+		"next": "Next",
+		"previous": "Prev"
 	},
 
 	"slider_id": "slider_bg",
-	"screenshot": "images/screenshot.png",
+	"screenshot": "images/screenshot.jpg",
 	"blank_header": ""
 }

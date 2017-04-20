@@ -1,0 +1,201 @@
+.PlayerInfo {
+	width:350px;
+	height:84px;
+	border-radius: 3px;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+	float: left;
+}
+.PlayerRep {
+	width:350px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+	float: left;
+}
+.PlayerBars{
+	width:350px;
+	height:44px;
+	border-radius: 3px;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+	float: left;
+}
+.PlayerInfoIMG {
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin-left: 5px;
+	margin-top: 2px;
+	position: relative;
+	padding: 2px;
+	float: left;
+}
+.PlayerInfoName {
+	width:336px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	
+	margin-left: 5px;
+	margin-top: 7px;
+	position: relative;
+	padding: 2px;
+	float: left;
+	font-family: calibrib;
+	color: #D9B162;
+	font-size: 18px;
+}
+.PlayerModel {
+	float: right;
+	width:602px;
+	height:602px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+}
+.ArmoryContent
+{
+	height: 700px;
+}
+.RepTable
+{
+	margin-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	position: relative;
+	padding: 5px;
+	width:97%;
+}
+.RepRowNeutral
+{
+	border-radius: 3px;
+	overflow: hidden;
+	background-color: yellow;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+}
+.Professions {
+	width:350px;
+	height:54px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+	float: left;
+}
+.GearSlot{
+	width:48px;
+	height:48px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: url('http://obsidianwow.com/template/style/images/texture_light_2.gif') repeat scroll 0% 0% transparent;
+	transition: all 200ms ease 0s;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	margin: 0px 0px 12px;
+	padding: 2px;
+	position: relative;
+}
+.PlayerInfoLevel
+{
+	overflow: hidden;
+	transition: all 200ms ease 0s;
+	position: relative;
+	border-radius: 50%;
+	margin-top:-12px;
+	margin-left:5px;
+	margin-bottom: -5px;
+	padding:12px;
+	background: url('http://obsidianwow.com/stats/images/class/level.png') repeat scroll 0% 0% transparent;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8), 0px 0px 0px 1px #513F22 inset, 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px rgba(255, 255, 255, 0.05) inset;
+	float: left;
+	text-align: center;
+	color:#fff;
+	width: 25px;
+	height:24px
+}
+
+/*Progressbar Code Start*/
+#outer {
+  width: 346px;
+  height: 15px;
+  border: black 1px solid;
+  overflow: hidden; /* just in case */
+  border-radius: 3%;
+}
+#innergreen
+{
+  width: 50%;
+  height: 100%;
+  background: #2AA728;
+  border-radius: 3%;
+}
+#innerorange
+{
+  width: 50%;
+  height: 100%;
+  background: #904114;
+  border-radius: 3%;
+}
+#innerred
+{
+  width: 50%;
+  height: 100%;
+  background: #A61F3B;
+  border-radius: 3%;
+}
+#innercyan
+{
+  width: 50%;
+  height: 100%;
+  background: #00D5FF;
+  border-radius: 3%;
+}
+#innerblue
+{
+  width: 50%;
+  height: 100%;
+  background: #2876A7;
+  border-radius: 3%;
+}
+#inneryellow
+{
+  width: 50%;
+  height: 100%;
+  background: #ABB33F;
+  border-radius: 3%;
+}
+#text {
+  position: relative;
+  top: -100%;
+  height: 100%;
+  color: #FFF;
+  text-align: center;
+  line-height: 15px /* center the text vertically */
+}
+/*Progressbar Code End*/
